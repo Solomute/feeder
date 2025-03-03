@@ -1,0 +1,265 @@
+(footprint "L_4018"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Bourns SRN4018 series SMD inductor, https://www.bourns.com/docs/Product-Datasheets/SRN4018.pdf")
+	(tags "Bourns SRN4018 SMD inductor")
+	(property "Reference" "L1"
+		(at 0 3.1 0)
+		(layer "F.SilkS")
+		(uuid "3926d58e-cbfd-4d1f-9210-415e0808fa09")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "22u"
+		(at 0 -3.1 0)
+		(layer "F.Fab")
+		(uuid "878fd778-5b39-466b-bccf-a37efe5fd3b3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3407442b-4781-495c-8a52-2fcf3153a8a4")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Inductor"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "86d01ff9-0a80-4381-af47-6ff28cfabade")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Part Number" "963-NRS4018T220MDGJV"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c126d7ab-f698-4039-89a2-ef37b8a42527")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -2.1 -2.11)
+		(end -2.1 -1.085)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "525e3f9e-8509-44a2-9cca-6d803d5cd0f3")
+	)
+	(fp_line
+		(start -2.1 -2.11)
+		(end -1.075 -2.11)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8a0106a5-a4d6-483e-966f-fa801435a444")
+	)
+	(fp_line
+		(start -2.1 2.1125)
+		(end -2.1 1.0875)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5a4a3c7e-a0c3-4191-8c4f-7a7381cabe73")
+	)
+	(fp_line
+		(start -2.1 2.1125)
+		(end -1.075 2.1125)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c5b527b8-0330-4364-8941-c27b3c3a2be5")
+	)
+	(fp_line
+		(start 2.1 -2.11)
+		(end 1.075 -2.11)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6a21cff7-cd08-4ba5-9e1d-4885db10cd59")
+	)
+	(fp_line
+		(start 2.1 -2.11)
+		(end 2.1 -1.085)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2afa34df-423f-4a06-a6b1-64f79c35af41")
+	)
+	(fp_line
+		(start 2.1 2.1125)
+		(end 1.075 2.1125)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "29ad9315-cfbc-4ac7-81d6-685c8af3e6ca")
+	)
+	(fp_line
+		(start 2.1 2.1125)
+		(end 2.1 1.0875)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8d4298d9-4823-4bb9-a72f-20ad7c84adbf")
+	)
+	(fp_line
+		(start -2.25 -2.25)
+		(end -2.25 2.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "410f0f0a-c5d0-4d52-a087-13f875e6b7cf")
+	)
+	(fp_line
+		(start -2.25 -2.25)
+		(end 2.25 -2.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "f704caaa-0432-42f6-a370-b260e39ecb7d")
+	)
+	(fp_line
+		(start -2.25 2.25)
+		(end 2.25 2.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "cce15c1b-16bd-453b-983c-6fd7e0256a88")
+	)
+	(fp_line
+		(start 2.25 -2.25)
+		(end 2.25 2.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "f91d299f-0462-44b0-9c73-415461904913")
+	)
+	(fp_line
+		(start -2 -2)
+		(end -2 2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e4cb3769-dc07-429f-917c-7b888451bad0")
+	)
+	(fp_line
+		(start -2 -2)
+		(end 2 -2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "6320d08c-6fa5-4a18-9ca7-6071b2b44dd6")
+	)
+	(fp_line
+		(start 2 -2)
+		(end 2 2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b8b5acd6-6e00-4887-8cf5-24304dd4e8d1")
+	)
+	(fp_line
+		(start 2 2)
+		(end -2 2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "68fca430-f448-4e2f-9869-c221acacdeab")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "f478d4ac-134f-41d1-9861-018af87a3105")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -1.4 0)
+		(size 1.2 3.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "2aa6e221-a178-466e-8d2a-90deed5d3ffa")
+	)
+	(pad "2" smd rect
+		(at 1.4 0)
+		(size 1.2 3.7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "6e0ca285-f076-42a7-a8ef-2de524de5302")
+	)
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_Bourns-SRN4018.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
